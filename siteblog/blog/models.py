@@ -67,4 +67,4 @@ class Post(models.Model):
     class Meta:
         verbose_name = 'Статья(ю)'
         verbose_name_plural = 'Статьи'
-        ordering = ['-created_at']
+        ordering = ['created_at']
